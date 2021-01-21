@@ -1,0 +1,200 @@
+{
+    "Homme":{
+        "m1":{
+            "image":"src/m1.jpg",
+            "titre":"Masserati Successo Bleu",
+            "ref":"m1",
+            "prix":"179 $",
+            "stock": 20
+        },
+        "m2":{
+            "image":"src/m2.jpg",
+            "titre":"Diesel Ms9 Champagne",
+            "ref":"m2",
+            "prix":"259 $",
+            "stock": 20
+            
+        },
+        "m3":{
+            "image":"src/m3.jpg",
+            "titre":"Boss Skymaster",
+            "ref":"m3",
+            "prix":"379 $",
+            "stock": 20
+        },
+        "m4":{
+            "image":"src/m4.jpg",
+            "titre":"Diesel Mr Daddy Gris",
+            "ref":"m4",
+            "prix":"419 $",
+            "stock": 20
+        },
+        "m5":{
+            "image":"src/m5.jpg",
+            "titre":"Lacoste Moon Noir",
+            "ref":"m5",
+            "prix":"199 $",
+            "stock": 20
+        },
+        "m6":{
+            "image":"src/m6.jpg",
+            "titre":"Masserati Legend 2 Tons",
+            "ref":"m6",
+            "prix":"200 $",
+            "stock": 20
+        },
+        "m7":{
+            "image":"src/m7.jpg",
+            "titre":"Boss Hero Bleu",
+            "ref":"m7",
+            "prix":"399 $",
+            "stock": 20
+        },
+        "m8":{
+            "image":"src/m8.jpg",
+            "titre":"Lacoste Moon Argent",
+            "ref":"m8",
+            "prix":"199 $",
+            "stock": 20
+        },
+        "m9":{
+            "image":"src/m9.jpg",
+            "titre":"Masserati Traguardo Noir",
+            "ref":"m9",
+            "prix":"269 $",
+            "stock": 20
+        }
+    },
+    "Femme":{
+        "m1":{
+            "image":"src/m10.jpg",
+            "titre":"Rosefield The Premium Bloss Noir",
+            "ref":"m10",
+            "prix":"89 $",
+            "stock": 20
+        },
+        "m2":{
+            "image":"src/m11.jpg",
+            "titre":"Guess Cosmo Champagne",
+            "ref":"m11",
+            "prix":"189 $",
+            "stock": 20
+            
+        },
+        "m3":{
+            "image":"src/m12.jpg",
+            "titre":"Fossil Carlie Rose",
+            "ref":"m12",
+            "prix":"219 $",
+            "stock": 20
+        },
+        "m4":{
+            "image":"src/m13.jpg",
+            "titre":"Fossil Fb- Blanc",
+            "ref":"m13",
+            "prix":"419 $",
+            "stock": 20
+        },
+        "m5":{
+            "image":"src/m14.jpg",
+            "titre":"Rosefield The Premium Bloss Rose",
+            "ref":"m14",
+            "prix":"199 $",
+            "stock": 20
+        },
+        "m6":{
+            "image":"src/m15.jpg",
+            "titre":"Casio Collection Vintage",
+            "ref":"m15",
+            "prix":"200 $",
+            "stock": 20
+        },
+        "m7":{
+            "image":"src/m16.jpg",
+            "titre":"Casio Vintage Champagne",
+            "ref":"m16",
+            "prix":"70 $",
+            "stock": 20
+        },
+        "m8":{
+            "image":"src/m17.jpg",
+            "titre":"Guess Bellini Argent",
+            "ref":"m17",
+            "prix":"149 $",
+            "stock": 20
+        },
+        "m9":{
+            "image":"src/m18.jpg",
+            "titre":"Fossil Scarlette Mini Rose",
+            "ref":"m18",
+            "prix":"129 $",
+            "stock": 20
+        }
+    },
+    "Bracelet":{
+        "m1":{
+            "image":"src/m19.jpg",
+            "titre":"Bracelet Nouraya Argent Blanc",
+            "ref":"m19",
+            "prix":"45 $",
+            "stock": 20
+        },
+        "m2":{
+            "image":"src/m20.jpg",
+            "titre":"Bracelet Noelle Argent",
+            "ref":"m20",
+            "prix":"39 $",
+            "stock": 20
+            
+        },
+        "m3":{
+            "image":"src/m21.jpg",
+            "titre":"Bracelet Gaspardine Maille Or",
+            "ref":"m21",
+            "prix":"89 $",
+            "stock": 20
+        },
+        "m4":{
+            "image":"src/m22.jpg",
+            "titre":"Bracelet Hannen Argent",
+            "ref":"m22",
+            "prix":"419 $",
+            "stock": 20
+        },
+        "m5":{
+            "image":"src/m23.jpg",
+            "titre":"Bracelet Nathali Argent",
+            "ref":"m23",
+            "prix":"35 $",
+            "stock": 20
+        },
+        "m6":{
+            "image":"src/m24.jpg",
+            "titre":"Bracelet Ange Email Or",
+            "ref":"m24",
+            "prix":"119 $",
+            "stock": 20
+        },
+        "m7":{
+            "image":"src/m25.jpg",
+            "titre":"Bracelet Aurida Papillon Or",
+            "ref":"m25",
+            "prix":"79 $",
+            "stock": 20
+        },
+        "m8":{
+            "image":"src/m26.jpg",
+            "titre":"Bracelet Euphenia Maille",
+            "ref":"m26",
+            "prix":"149 $",
+            "stock": 20
+        },
+        "m9":{
+            "image":"src/m27.jpg",
+            "titre":"Bracelet Gaspardine Maille",
+            "ref":"m27",
+            "prix":"109 $",
+            "stock": 20
+        }
+    }
+}

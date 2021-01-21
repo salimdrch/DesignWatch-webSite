@@ -1,0 +1,285 @@
+body{
+    margin: 0;
+}
+
+/*  Mis en page de l'entete */
+header{
+    height: 200px;    
+    background: linear-gradient(black,#CCC,white); /* Faire un dégradé de couleur en fond */
+    padding: 6px;
+    width: 100%; /* J'initialise mon header a 100% de largeur */
+    position: fixed;    /* Je lui met une position fixe pour que mon header ne bouge pas même si je scroll sur la page */
+    top: 0; 
+    left: 0; 
+    z-index: 4; /* Mon header à un z-index supérieur à mon aside, ainsi il sera mis au premier plan */
+}
+
+/*  Mise en place du logo */
+label.logo{
+   color:white;
+   font-size: 35px;
+   line-height: 80px;
+   padding: 25px 100px;
+   font-weight: bold;
+}
+
+/* Mis en place menu horizontal */
+nav.menu ul {
+    float: right;
+    margin-right: 20px;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+nav.menu ul li
+{
+    color: black;
+    font-size: 18px;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+nav.menu ul li.m{
+    border-right: 0.5px solid;
+}
+
+nav.menu ul li a{
+    color: black;
+    text-transform: uppercase;
+}
+
+nav.menu ul li a:hover{
+    background-color:#CCC;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.haut{
+    margin-right: 20px;
+    float: right;
+}
+
+.haut a{
+    color: white;
+    text-transform: uppercase;
+}
+
+.haut a:hover{
+    color: black;
+    background-color: #CCC;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+.haut li{
+    color: white;
+    font-size: 14px;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.haut li.b{
+    border-right: 0.5px solid;
+}
+
+.panier{
+    position: relative;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+}
+/* SECTION */
+
+section{
+    min-height: 200vh;
+}
+
+
+
+/*  Mise en menu vertical */
+
+aside{
+    height: 100%;
+    background: linear-gradient(white,white,#CCC,black);
+    width: 270px;
+    position: fixed;    /* je fixe aussi mon Menu vertical comme sur le site de la Fnac */
+    top: 0;
+    left: 0; 
+    padding-top: 250px;
+    z-index: 1; /* Inférieur au header */
+}
+
+.menu-vertical li a{
+    color: black;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.menu-vertical li a:hover{
+    background-color:#CCC;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.menu-vertical li
+{
+    color: black;
+    font-size: 18px;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding-bottom: 40px;
+}
+
+.bracelet{
+    position: relative;
+    top: 4px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Mis en page aside */
+.img-fond{
+    border :3px solid black;
+    box-shadow : 8px 8px 5px gray;
+    position: absolute;
+    top: 215px;
+    width: 1240px;
+    left: 270px;
+}
+
+img.img-acceuil{
+    height: 350px;
+    width: 1240px;
+}
+
+/* Mis en page article */
+article{
+    margin-top: 600px;
+}
+
+h1.sous-titre{
+    padding-left: 850px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+
+/* BLOC IMAGE MONTRE ACCEUIL */
+
+img.m{
+    padding: 10px 35px;
+}
+
+div.montre{
+    display: inline;
+}
+
+div.bloc-montres{
+    padding-left: 280px;
+}
+
+/* Mis en page boutton */
+#bouton{
+    padding-left: 1180px;
+}
+
+div#bouton input:hover{
+    background-color: #CCC;
+    color: white;
+    padding: 3px 5px;
+}
+
+div#bouton input{
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mis en page du footer */
+footer{
+   padding-bottom: 20px;
+   margin-left: 270px;
+   height: 120px; 
+   background-color: #222;
+}
+
+.menu-reseaux a{
+    color: white;
+}
+
+.menu-reseaux ul li{
+    margin-right: 20px;
+    float: right;
+    padding: 20px 20px;
+    display: inline-block;
+}
+
+.menu-footer ul li{
+    margin-right: 10px;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+.menu-footer ul{
+    padding-top: 55px;
+    font-size: 12px;
+    padding-left: 350px;
+}
+
+.menu-footer ul li a{
+    color: white;
+}
+
+.menu-footer ul li.bdrs{
+    border-right: 0.5px solid white;
+}
+
+.menu-footer .ws{
+    margin-top: -10px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-left: 570px;
+}
+.menu-footer .cp{
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    padding-left: 550px;
+}
+
+
+/*
+.menu-reseaux ul li.brd{
+    border-right: 0.5px solid white;
+}
+*/
